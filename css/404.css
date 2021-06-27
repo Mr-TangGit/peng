@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bt-404{
+	font-size:50px;
+	margin-top:60px;
+	color:#3377aa;
+	display:block;
+}
+.bt-404 a{
+	text-decoration:underline;
+}

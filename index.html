@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>鹏哥影评</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+	<embed src="music/love is gone.mp3" loop="-1" autostart=true hidden="true">
+<!--上面那一大部分开始-->
+
+<!--蓝色小横条开始-->
+<div class="con">
+<div class="top">
+<table class="top-table1">
+<tr>
+<td><a href="鹏哥是谁.html">鹏哥是谁</a></td>
+<td><a href="404.html">选电影</a></td>
+<td><a href="404.html">电视剧</a></td>
+<td><a href="404.html">排行榜</a></td>
+<td><a href="404.html">分类</a></td>
+</tr>
+</table>
+
+<table class="top-table2">
+<tr>
+<td><a href="lading.html">登陆</a>/<a href="register.html">注册</a></td>
+</tr>
+</table>	
+</div>
+</div>
+<!--蓝色小横条结束-->
+
+<!--鹏哥搜索开始-->
+<div class="nav">	
+<table class="nav-table">
+<tr>
+<td><a href="index.html"><img src="pic/logo.png" width="70px"></a>
+</td>
+<td>
+<input type="search" class="kk"  placeholder=" 速度与激情9">
+<a href="serch.html"><span class="serch">搜索</span></a>
+</td>
+</tr>
+</table>
+</div>
+<!--鹏哥搜索结束-->
+<!--上面那一大部分结束-->
+
+<!--整体部分开始-->
+<div class="body">
+
+<!--最佳部分开始-->
+<table class="body-table">
+<tr>
+<td class="first-td" id="one"><a onclick="bzzj()" href="#one">本周最佳</a></td>
+<td class="second-td" id="two"><a onclick="szzj()" href="#two">上周最佳</a></td>
+<td class="second-td" id="three"><a onclick="lszj()" href="#three">历史最佳</a></td>
+</tr>
+</table>
+<script> 
+   function bzzj(){
+	    document.getElementById('bzzj').style.display="block";
+		document.getElementById('szzj').style.display="none"; 
+		document.getElementById('lszj').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+		  
+	function szzj(){
+	    document.getElementById('bzzj').style.display="none";
+		document.getElementById('szzj').style.display="block"; 
+		document.getElementById('lszj').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+	function lszj(){
+	    document.getElementById('bzzj').style.display="none";
+		document.getElementById('szzj').style.display="none"; 
+		document.getElementById('lszj').style.display="block"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+</script>
+<!--本周最佳部分-->
+<table class="body-table1" id=bzzj>
+<tr>
+<td><a href="速度与激情9.html"><img src="pic/index/最佳/本周最佳/速度与激情9.webp" width="150"></a></td>
+<td><a href="我们要在一起.html"><img src="pic/index/最佳/本周最佳/我们要在一起.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/本周最佳/战狼2.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/本周最佳/困在时间里的父亲.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/本周最佳/当男人恋爱时.webp" width="150"></a></td>
+</tr>
+<tr>
+<td><a href="速度与激情9.html">速度与激情9</a></td>
+<td><a href="我们要在一起.html">我们要在一起</a></td>
+<td><a href="404.html">战狼2</a></td>
+<td><a href="404.html">困在时间里的父亲</a></td>
+<td><a href="404.html">当男人恋爱时</a></td>
+</tr>
+<tr>
+<td><meter value="55" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">5.5</span></td>
+<td><meter value="63" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">6.3</span></td>
+<td><meter value="71" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.1</span></td>
+<td><meter value="87" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">8.7</span></td>
+<td><meter value="68" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">6.8</span></td>
+</tr>
+</table>
+<!--本周最佳部分结束-->
+
+<!--上周最佳部分-->
+<table class="body-table1" id=szzj style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/最佳/上周最佳/黑白魔女库伊拉.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/上周最佳/了不起的老爸.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/上周最佳/你好世界.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/上周最佳/守岛人.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/上周最佳/天堂电影院.webp" width="150"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">黑白魔女库伊拉</a></td>
+<td><a href="404.html">了不起的老爸</a></td>
+<td><a href="404.html">你好世界</a></td>
+<td><a href="404.html">守岛人</a></td>
+<td><a href="404.html">天堂电影院</a></td>
+</tr>
+<tr>
+<td><meter value="70" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.0</span></td>
+<td><meter value="71" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.1</span></td>
+<td><meter value="71" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.1</span></td>
+<td><meter value="74" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.4</span></td>
+<td><meter value="92" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">9.2</span></td>
+</tr>
+</table>
+<!--上周最佳部分结束-->
+
+<!--历史最佳部分-->
+<table class="body-table1" id=lszj style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/最佳/历史最佳/比得兔2：逃跑计划.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/历史最佳/寂静之地2.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/历史最佳/热带往事.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/历史最佳/悬崖之上.webp" width="150"></a></td>
+<td><a href="404.html"><img src="pic/index/最佳/历史最佳/阳光姐妹淘.webp" width="150"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">比得兔2</a></td>
+<td><a href="404.html">寂静之地2</a></td>
+<td><a href="404.html">热带往事</a></td>
+<td><a href="404.html">悬崖之上</a></td>
+<td><a href="404.html">阳光姐妹淘</a></td>
+</tr>
+<tr>
+<td><meter value="73" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.3</span></td>
+<td><meter value="67" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">6.7</span></td>
+<td><meter value="65" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">6.5</span></td>
+<td><meter value="76" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">7.6</span></td>
+<td><meter value="47" min="0" max=100 low=60 high="80" title=65 optimum="100"></meter> <span class="score-font">4.7</span></td>
+</tr>
+</table>
+<!--历史最佳部分结束-->
+
+<!--最佳部分结束-->
+
+
+
+<!--电影部分开始-->
+<table class="body-table" style="margin-top:40px">
+<tr>
+<td class="first-td" id="four"><a href="#four" onClick="zj()">最近的热门电影</a></td>
+<td class="second-td" id="five"><a href="#five" onClick="rm()">热门</a></td>
+<td class="second-td" id="six"><a href="#six" onClick="zx()">最新</a></td>
+</tr>
+</table>
+<script> 
+   function zj(){
+	    document.getElementById('zj').style.display="block";
+		document.getElementById('rm').style.display="none"; 
+		document.getElementById('zx').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+		  
+	function rm(){
+	    document.getElementById('zj').style.display="none";
+		document.getElementById('rm').style.display="block"; 
+		document.getElementById('zx').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+	function zx(){
+	    document.getElementById('zj').style.display="none";
+		document.getElementById('rm').style.display="none"; 
+		document.getElementById('zx').style.display="block"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+</script>
+<!--最近的热门电影-->
+<table class="body-table1" id="zj">
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/巴乔：神奇的马尾辫.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/电锯惊魂9：涡旋.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/哆啦A梦：伴我同行.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/黑白魔女库伊拉.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/秘密访客.jpg" width="154" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">巴乔：神奇的马尾辫</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">电锯惊魂9：涡旋</a> <span class="score-font">5.2</span></td>
+<td><a href="404.html">哆啦A梦：伴我同行2</a> <span class="score-font">7.3</span></td>
+<td><a href="404.html">黑白魔女库伊拉</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">秘密访客</a> <span class="score-font">5.5</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/牵线木偶.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/切尔诺贝利.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/扫黑：决战.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/招魂.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最近的热门电影/追虎擒龙.jpg" width="159" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">牵线木偶</a> <span class="score-font">6.7</span></td>
+<td><a href="404.html">切尔诺贝利</a> <span class="score-font">6.4</span></td>
+<td><a href="404.html">扫黑：决战</a> <span class="score-font">6.2</span></td>
+<td><a href="404.html">招魂</a> <span class="score-font">6.4</span></td>
+<td><a href="404.html">追虎擒龙</a> <span class="score-font">5.2</span></td>
+</tr>
+</table>
+<!--最近的热门电影结束-->
+
+<!--热门电影-->
+<table class="body-table1" id="rm" style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/鬼灭之刃 剧场版 无限列车篇.webp" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/浪客剑心 最终章 人诛篇.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/老友记重聚特辑.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/普吉岛的最后黄昏.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/人之怒.webp" width="154" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">鬼灭之刃 剧场版 无限列车篇</a> <span class="score-font">8.0</span></td>
+<td><a href="404.html">浪客剑心 最终章 人诛篇</a> <span class="score-font">7.6</span></td>
+<td><a href="404.html">老友记重聚特辑</a> <span class="score-font">9.3</span></td>
+<td><a href="404.html">普吉岛的最后黄昏</a> <span class="score-font">9.3</span></td>
+<td><a href="404.html">人之怒</a> <span class="score-font">6.8</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/我的姐姐.webp" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/卧底：费瑞崛起.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/夏日友晴天.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/悬崖之上.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/热门电影/兹山鱼谱.webp" width="159" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">我的姐姐</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">卧底：费瑞崛起</a> <span class="score-font">6.1</span></td>
+<td><a href="404.html">夏日友晴天</a> <span class="score-font">7.3</span></td>
+<td><a href="404.html">悬崖之上</a> <span class="score-font">7.6</span></td>
+<td><a href="404.html">兹山鱼谱</a> <span class="score-font">8.6</span></td>
+</tr>
+</table>
+<!--热门电影结束-->
+
+<!--最新的电影-->
+<table class="body-table1" id="zx" style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/极地反击.webp" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/剧场版 美少女战士.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/如何培养一个女孩.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/萨维奇.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/水俣病.webp" width="154" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">极地反击</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">剧场版 美少女战士</a> <span class="score-font">5.2</span></td>
+<td><a href="404.html">如何培养一个女孩</a> <span class="score-font">7.3</span></td>
+<td><a href="404.html">萨维奇</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">水俣病</a> <span class="score-font">5.5</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/托芙.jpg" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/为了所有的女孩.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/无名世界的终结.webp" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/罂粟田.webp" width="151" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电影/最新的电影/雨和你的故事.webp" width="159" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">/托芙</a> <span class="score-font">6.7</span></td>
+<td><a href="404.html">为了所有的女孩</a> <span class="score-font">6.4</span></td>
+<td><a href="404.html">无名世界的终结</a> <span class="score-font">6.2</span></td>
+<td><a href="404.html">罂粟田</a> <span class="score-font">6.4</span></td>
+<td><a href="404.html">雨和你的故事</a> <span class="score-font">5.2</span></td>
+</tr>
+</table>
+<!--最新的电影结束-->
+<!--电影部分结束-->
+
+<!--电视剧部分开始-->
+<table class="body-table" style="margin-top:40px">
+<tr>
+<td class="first-td" id="seven"><a href="#seven" onClick="zjdsj()">最近的电视剧</a></td>
+<td class="second-td" id="eight"><a href="#eight" onClick="rmj()">热门</a></td>
+<td class="second-td" id="nine"><a href="#nine" onClick="gcj()">国产剧</a></td>
+</tr>
+</table>
+<script> 
+   function zjdsj(){
+	    document.getElementById('zjdsj').style.display="block";
+		document.getElementById('rmj').style.display="none"; 
+		document.getElementById('gcj').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+		  
+	function rmj(){
+	    document.getElementById('zjdsj').style.display="none";
+		document.getElementById('rmj').style.display="block"; 
+		document.getElementById('gcj').style.display="none"; 
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+	function gcj(){
+	    document.getElementById('zjdsj').style.display="none";
+		document.getElementById('rmj').style.display="none"; 
+		document.getElementById('gcj').style.display="block";
+		 return false; //如果需要阻止链接跳转，就return false;
+		  }
+</script>
+
+<!--最近电视剧-->
+<table class="body-table1" id="zjdsj">
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/宝宝大过天.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/东城梦魇.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/机智医生生活 第二季.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/觉醒年代.jpg" width="167" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/洛基 第一季.jpg" width="151" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">宝宝大过天</a> <span class="score-font">7.8</span></td>
+<td><a href="404.html">东城梦魇</a> <span class="score-font">9.0</span></td>
+<td><a href="404.html">机智医生生活2</a> <span class="score-font">9.7</span></td>
+<td><a href="404.html">觉醒年代</a> <span class="score-font">9.3</span></td>
+<td><a href="404.html">洛基 第一季</a> <span class="score-font">9.2</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/叛逆者.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/我买了一个农场.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/刑侦日记.jpg" alt="" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/御赐小仵作.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/最近的电视剧/致命女人 第二季.jpg" width="149" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">叛逆者</a> <span class="score-font">8.4</span></td>
+<td><a href="404.html">我买了一个农场 </a><span class="score-font">9.5</span></td>
+<td><a href="404.html">刑侦日记</a> <span class="score-font">8.4</span></td>
+<td><a href="404.html">御赐小仵作</a> <span class="score-font">8.2</span></td>
+<td><a href="404.html">致命女人 第二季</a> <span class="score-font">8.6</span></td>
+</tr>
+</table>
+<!--最近电视剧结束-->
+
+<!--热门剧-->
+<table class="body-table1" id="rmj" style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/T教授.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/爱上特种兵.jpg" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/变成你的那一天.jpg" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/不说再见.webp" width="167" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/眷思量.webp" width="151" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">T教授</a> <span class="score-font">7.6</span></td>
+<td><a href="404.html">爱上特种兵</a> <span class="score-font">4.4</span></td>
+<td><a href="404.html">变成你的那一天2</a> <span class="score-font">7.9</span></td>
+<td><a href="404.html">不说再见</a> <span class="score-font">暂无评分</span></td>
+<td><a href="404.html">眷思量</a> <span class="score-font">8.6</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/名校风暴短篇故事：奥马尔、安德与亚历克西斯.webp" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/名校风暴短篇故事：胡兹曼、卡耶塔娜与瑞贝卡.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/千古玦尘.webp" alt="" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/瑞克和莫蒂 第五季.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/热门剧/山河令.webp" width="149" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">名校风暴短篇故事：奥马尔、安德与亚历克西斯</a> <span class="score-font">8.5</span></td>
+<td><a href="404.html">名校风暴短篇故事：胡兹曼、卡耶塔娜与瑞贝卡 </a><span class="score-font">8.1</span></td>
+<td><a href="404.html">千古玦尘</a> <span class="score-font">暂无评分</span></td>
+<td><a href="404.html">瑞克和莫蒂 第五季</a> <span class="score-font">9.8</span></td>
+<td><a href="404.html">山河令</a> <span class="score-font">8.6</span></td>
+</tr>
+</table>
+<!--热门剧结束-->
+
+<!--国产剧-->
+<table class="body-table1" id="gcj" style="display:none;">
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/陈情令.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/斗罗大陆.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/理想照耀中国.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/山海情.webp" width="167" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/时光代理人.webp" width="151" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">陈情令</a> <span class="score-font">7.7</span></td>
+<td><a href="404.html">斗罗大陆</a> <span class="score-font">6.5</span></td>
+<td><a href="404.html">理想照耀中国</a> <span class="score-font">8.2</span></td>
+<td><a href="404.html">山海情</a> <span class="score-font">9.3</span></td>
+<td><a href="404.html">时光代理人</a> <span class="score-font">8.2</span></td>
+</tr>
+<tr height=15px></tr>
+<tr>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/我们的新时代.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/有翡.webp" width="157" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/月光变奏曲.webp" alt="" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/重启之极海听雷 第二季.webp" width="149" height="223"></a></td>
+<td><a href="404.html"><img src="pic/index/电视剧/国产剧/重启之极海听雷 第一季.webp" width="149" height="223"></a></td>
+</tr>
+<tr>
+<td><a href="404.html">我们的新时代</a> <span class="score-font">暂无评分</span></td>
+<td><a href="404.html">有翡</a><span class="score-font">5.7</span></td>
+<td><a href="404.html">月光变奏曲</a> <span class="score-font">7.1</span></td>
+<td><a href="404.html">重启之极海听雷 第二季</a> <span class="score-font">7.0</span></td>
+<td><a href="404.html">重启之极海听雷 第一季</a> <span class="score-font">7.1</span></td>
+</tr>
+</table>
+<!--国产剧结束-->
+<!--电视剧部分结束-->
+
+<!--版权尾巴部分开始-->
+<div class="end">
+© 2005－2021 pengge.com, all rights reserved 成都鹏哥网科技有限公司 
+<p align="right" class="end-right">相关链接：<a href="https://mr-tanggit.github.io/person/index.html">鹏哥影视</a></p>
+</div>
+<!--版权尾巴部分结束-->
+
+</div>
+<!--整体部分开始-->
+</body>
+</html>

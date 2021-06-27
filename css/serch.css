@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.serch1{
+	display:block;
+	margin-top:50px;
+	font-size:30px;
+}
+
+.text{
+	display:block;
+	margin-top:50px;
+	font-size:15px;
+}
+
+.addkk{
+	outline:none;
+	border:1px solid #b0bdbf;
+	height:20px;
+	margin-top:10px;
+	margin-bottom:300px;
+	width:200px;
+}
+
+.addsubmit{
+	height:25px;
+	width:50px;
+	margin-top:10px;
+	margin-bottom:300px;
+}

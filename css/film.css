@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bt{
+	font-size:28px;
+	display:block;
+	margin-top:45px;
+	font-weight:bold;
+}
+
+.table{
+	box-sizing:border-box;
+	border-spacing:15px 5px;
+	width:450px;
+}
+
+.bt2{
+	font-size:16px;
+	color:#007722;
+	margin-top:30px;
+	margin-bottom:12px;
+}
+
+.link-font{
+	color:#3377aa;
+}
+
+.pinlun{
+	display:block;
+	border-top:#f0f3f5 solid 1px;
+	
+	margin-top:20px;
+	padding-top:6px;
+	color:#c0bdcf;
+}
